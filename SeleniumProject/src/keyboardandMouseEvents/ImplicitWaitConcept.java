@@ -11,8 +11,8 @@ public class ImplicitWaitConcept {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vennela\\Desktop\\New Chrome\\chromedriver.exe");
 
 	    WebDriver driver = new ChromeDriver();
-	    driver.get("https://www.spicejet.com/");
 	    driver.manage().window().maximize();
+	    driver.get("https://www.spicejet.com/");
 	    
 	    //Dynamic Wait
 	    driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
